@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="mn" class="scroll-smooth">
+<head>
+<meta charset="utf-8" />
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>NOMT — Улаанбаатарын зүрхэнд. Зургаан орлогын урсгал. | JTSG LLC</title>
+<meta name="description" content="NOMT — Сүхбаатар дүүргийн төв байршил дахь 15 давхар олон зориулалттай цогцолбор. Худалдах орон сууц, үйлчилгээт орон сууц, зочид буудал, оффис, худалдаа — нэг хаягт, зургаан орлогын урсгал. Хөгжүүлэгч: JTSG ХХК." />
+<meta name="theme-color" content="#F5F1E8" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%236E521A'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23FCF9F3' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E" />
+<meta property="og:title" content="NOMT — Six income streams. One address in central Ulaanbaatar." />
+<meta property="og:description" content="A 15-floor mixed-use tower in Sükhbaatar district by JTSG LLC: for-sale homes, serviced apartments, a hotel, office and retail." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif:wght@400;500&family=Noto+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink:    { DEFAULT:'#F5F1E8', raise:'#EEE8DB', card:'#FCF9F3' },
+          brass:  { 300:'#A87E22', 400:'#936B1A', 500:'#C19A3C', 600:'#6E521A' },
+          mist:   { DEFAULT:'#6E6657', dim:'#9A917F' },
+          paper:  { DEFAULT:'#20201C', ink:'#20201C' },
+          stream: { res:'#B58A2E', serv:'#2E7E6E', hotel:'#7E4E6E', off:'#3F6E8C', com:'#9A6E2E', park:'#5F7065' },
+          hair:   '#E5DFD1',
+        },
+        fontFamily: {
+          display: ['"Playfair Display"','"Noto Serif"','"Noto Serif SC"','serif'],
+          body:    ['"Noto Sans"','"Noto Sans SC"','sans-serif'],
+          mono:    ['"IBM Plex Mono"','monospace'],
+        },
+        fontSize: {
+          'display-xl': ['clamp(2.6rem,7vw,5.75rem)', { lineHeight:'1.0', letterSpacing:'-0.025em' }],
+          'display-lg': ['clamp(2rem,4.6vw,3.6rem)',  { lineHeight:'1.04', letterSpacing:'-0.02em' }],
+          'display-md': ['clamp(1.5rem,3vw,2.4rem)',  { lineHeight:'1.1', letterSpacing:'-0.015em' }],
+          'spec':       ['clamp(1.6rem,3.4vw,2.6rem)',{ lineHeight:'1', letterSpacing:'-0.01em' }],
+          'micro':      ['11px', { lineHeight:'1.5', letterSpacing:'0.28em' }],
+        },
+        letterSpacing: { tightest:'-0.03em', wide2:'0.22em', widest2:'0.30em' },
+        transitionTimingFunction: { cine:'cubic-bezier(.16,1,.3,1)', spring:'cubic-bezier(.22,1,.36,1)' },
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="bg-ink text-paper font-body antialiased">
+<div class="grain fixed inset-0 z-[60] pointer-events-none"></div>
+<div class="fixed top-0 left-0 right-0 h-px z-[55] bg-brass-500/60" id="progress"></div>
+<a href="#location" data-i18n="a11y.skip" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[70] focus:bg-brass-500 focus:text-paper focus:px-4 focus:py-2">Агуулга руу шилжих</a>
+
+<!-- SECTION INDEX RAIL (desktop) -->
+<nav aria-label="Section index" class="hidden xl:flex flex-col gap-4 fixed right-7 top-1/2 -translate-y-1/2 z-40">
+  <a href="#location" data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">01</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#building" data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">02</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#serviced" data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">03</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#hotel"    data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">04</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#market"   data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">06</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#partner"  data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">09</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+</nav>
+
+<!-- NAV -->
+<header class="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-ink/85">
+  <div class="absolute bottom-0 inset-x-0 rule-l opacity-60"></div>
+  <nav class="max-w-7xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-3 min-w-0">
+      <span class="inline-grid place-items-center w-7 h-7 bg-gradient-to-br from-brass-300 to-brass-600 text-ink-card font-display text-sm">N</span>
+      <span class="font-display text-lg tracking-[0.12em]">NOMT</span>
+    </a>
+    <div class="hidden lg:flex items-center gap-6 font-mono text-[11px] tracking-[0.14em] uppercase text-mist">
+      <a href="#location" data-i18n="nav.location" class="hover:text-paper">Байршил</a>
+      <a href="#building" data-i18n="nav.building" class="hover:text-paper">Барилга</a>
+      <a href="#serviced" data-i18n="nav.serviced" class="hover:text-paper">Үйлчилгээт</a>
+      <a href="#hotel" data-i18n="nav.hotel" class="hover:text-paper">Буудал</a>
+      <a href="#market" data-i18n="nav.market" class="hover:text-paper">Зах зээл</a>
+    </div>
+    <div class="flex items-center gap-3 sm:gap-5 shrink-0">
+      <div role="group" aria-label="Language" class="flex items-center font-mono text-[11px] tracking-[0.12em]">
+        <button type="button" data-lang="mn" class="btn px-2 py-1 text-mist hover:text-paper aria-pressed:text-brass-300" aria-pressed="true">МН</button>
+        <span class="text-mist-dim/40">/</span>
+        <button type="button" data-lang="zh" class="btn px-2 py-1 text-mist hover:text-paper aria-pressed:text-brass-300" aria-pressed="false">中文</button>
+        <span class="text-mist-dim/40">/</span>
+        <button type="button" data-lang="en" class="btn px-2 py-1 text-mist hover:text-paper aria-pressed:text-brass-300" aria-pressed="false">EN</button>
+      </div>
+      <a href="#partner" data-i18n="nav.cta" class="btn hidden md:inline-flex items-center rounded-full border border-brass-500/60 hover:border-brass-300 hover:bg-brass-500/10 text-paper font-mono text-[12px] tracking-[0.16em] uppercase px-5 py-2.5">Танилцуулга авах</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="relative overflow-hidden">
+  <figure class="img-cine absolute inset-0 -z-10">
+    <picture>
+      <source type="image/webp" srcset="assets/ext-1-1200.webp 1200w, assets/ext-1-1600.webp 1600w" sizes="100vw" />
+      <img src="assets/ext-1-1600.jpg" srcset="assets/ext-1-1200.jpg 1200w, assets/ext-1-1600.jpg 1600w" sizes="100vw"
+           width="1600" height="1033" loading="eager" fetchpriority="high" decoding="async" data-parallax="0.06"
+           data-i18n-attr="alt" data-i18n="hero.img.alt" alt="NOMT барилгын гадна төрх" class="hero-img w-full h-full object-cover object-top" />
+    </picture>
+  </figure>
+  <div class="hero-scrim absolute inset-0 -z-10"></div>
+  <figcaption class="absolute z-10 right-4 top-20 flex items-center gap-2">
+    <span class="w-1 h-1 rounded-full bg-brass-300"></span>
+    <span data-i18n="hero.badge" class="font-mono text-[10px] uppercase tracking-[0.18em] text-paper/70 bg-ink/55 backdrop-blur px-2.5 py-1">Уран сайхны төсөөлөл</span>
+  </figcaption>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 min-h-[86vh] flex flex-col justify-end pt-28 pb-12">
+    <p data-i18n="hero.eyebrow" class="eyebrow mb-6 is-in" data-reveal>JTSG ХХК-ИЙН ТӨСӨЛ · ТӨВ УЛААНБААТАР</p>
+    <h1 data-i18n="hero.headline" data-reveal style="--i:1" class="font-display font-normal text-display-xl text-balance text-paper max-w-4xl mb-6">Улаанбаатарын зүрхэнд — бүх хот ажиллахаар ирдэг газар.</h1>
+    <p data-i18n="hero.sub" data-reveal style="--i:2" class="text-mist max-w-2xl text-lg mb-9">Сүхбаатар дүүргийн төв цөмд байрлах 15 давхар олон зориулалттай цогцолбор.</p>
+    <div class="flex flex-wrap items-center gap-3" data-reveal style="--i:3">
+      <a href="#partner" data-i18n="hero.cta1" class="btn inline-flex items-center rounded-full bg-brass-500 hover:bg-brass-400 text-ink-card font-mono text-[12px] tracking-[0.16em] uppercase px-6 py-3">Танилцуулга авах</a>
+      <a href="#location" data-i18n="hero.cta2" class="btn inline-flex items-center rounded-full border border-brass-500/50 hover:border-brass-500 bg-ink/40 backdrop-blur text-paper font-mono text-[12px] tracking-[0.16em] uppercase px-6 py-3">Байршлыг үзэх</a>
+    </div>
+  </div>
+</section>
+<!-- HERO STATS STRIP -->
+<section class="bg-ink-raise border-y border-hair">
+  <dl class="max-w-7xl mx-auto px-5 sm:px-8 py-8 grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-6">
+    <div><dt data-i18n="hero.stat1.v" class="tnum font-mono text-spec text-paper">15</dt><dd data-i18n="hero.stat1.l" class="eyebrow mt-2 text-mist-dim">Давхар + B1</dd></div>
+    <div><dt data-i18n="hero.stat2.v" class="tnum font-mono text-spec text-paper">64</dt><dd data-i18n="hero.stat2.l" class="eyebrow mt-2 text-mist-dim">Орон сууц</dd></div>
+    <div><dt data-i18n="hero.stat3.v" class="tnum font-mono text-spec text-brass-500">6</dt><dd data-i18n="hero.stat3.l" class="eyebrow mt-2 text-mist-dim">Орлогын урсгал</dd></div>
+    <div><dt class="tnum font-mono text-spec text-paper">13,207<span class="text-base align-top ml-1">m²</span></dt><dd data-i18n="hero.stat4.l" class="eyebrow mt-2 text-mist-dim">Нийт талбай</dd></div>
+  </dl>
+</section>
+
+<!-- 01 · LOCATION (centerpiece, first) -->
+<section id="location" class="py-24 md:py-32 scroll-mt-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div data-reveal class="mb-12 md:mb-16 max-w-3xl">
+      <p data-i18n="sec.location.eyebrow" class="eyebrow mb-5">01 — БАЙРШИЛ</p>
+      <h2 data-i18n="sec.location.title" class="font-display font-normal text-display-lg mb-5">Цагирагийн дотор, захын суурьшилд биш.</h2>
+      <p data-i18n="loc.intro" class="text-mist">NOMT нь Сүхбаатар дүүрэгт, хотын түүхэн цөмийн дотор талд босно.</p>
+    </div>
+    <div class="grid lg:grid-cols-[1.45fr_1fr] gap-6 lg:gap-10 items-stretch">
+      <!-- map -->
+      <div data-reveal class="map-shell ring-1 ring-hair bg-ink-card">
+        <div id="map" role="application" data-i18n-attr="aria-label" data-i18n="loc.map.aria" aria-label="Газрын зураг" class="w-full h-[380px] sm:h-[460px] lg:h-full lg:min-h-[520px]">
+          <noscript><div class="p-8 text-mist text-sm">Сүхбаатар дүүрэг, 10-р хороо — Их Тойруугийн хойд тал, хотын төвөөс ~1.4 км. <a class="text-brass-400 underline" href="https://www.openstreetmap.org/?mlat=47.93008&mlon=106.92575#map=16/47.93008/106.92575" target="_blank" rel="noopener">OpenStreetMap</a></div></noscript>
+        </div>
+      </div>
+      <!-- landmarks + transit -->
+      <div data-reveal style="--i:1" class="flex flex-col gap-6">
+        <div>
+          <h3 data-i18n="loc.list.title" class="eyebrow text-mist-dim mb-4">Орчмын тулгуур цэгүүд</h3>
+          <ul id="lmList" class="grid gap-px bg-hair/60 ring-1 ring-hair"></ul>
+          <p data-i18n="loc.list.note" class="text-mist-dim text-xs mt-3">Зай нь ойролцоо. Метро ба BRT нь төлөвлөгдсөн дэд бүтэц.</p>
+        </div>
+        <div class="ring-1 ring-hair bg-ink-card p-5 sm:p-6">
+          <h3 data-i18n="loc.transit.title" class="eyebrow text-brass-300 mb-4">Тээвэр · төлөвлөгдсөн</h3>
+          <ul class="space-y-3 text-sm text-mist">
+            <li class="flex gap-3"><span class="text-brass-400 mt-1.5 w-1.5 h-1.5 shrink-0 bg-brass-400 rounded-full"></span><span data-i18n="loc.transit.brt">BRT — Их Тойруу</span></li>
+            <li class="flex gap-3"><span class="text-brass-400 mt-1.5 w-1.5 h-1.5 shrink-0 bg-brass-400 rounded-full"></span><span data-i18n="loc.transit.metro">Метроны 1-р шугам</span></li>
+            <li class="flex gap-3"><span class="text-brass-400 mt-1.5 w-1.5 h-1.5 shrink-0 bg-brass-400 rounded-full"></span><span data-i18n="loc.transit.ring">Их Тойруу — шууд орц гарц</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- real cityscape context -->
+    <figure data-reveal class="img-cine relative ring-1 ring-hair mt-6">
+      <picture>
+        <source type="image/webp" srcset="assets/context-1-1200.webp 1200w, assets/context-1-1600.webp 1600w" sizes="100vw" />
+        <img src="assets/context-1-1600.jpg" srcset="assets/context-1-1200.jpg 1200w, assets/context-1-1600.jpg 1600w" sizes="100vw"
+             width="1600" height="1062" loading="lazy" decoding="async" alt="" class="w-full h-[260px] sm:h-[420px] object-cover" />
+      </picture>
+      <figcaption class="absolute z-10 left-4 bottom-4 font-mono text-[10px] uppercase tracking-[0.16em] text-paper/80 bg-ink/55 backdrop-blur px-2.5 py-1"><span data-i18n="hero.badge">Уран сайхны төсөөлөл</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- 02 · THE BUILDING -->
+<section id="building" class="py-24 md:py-32 border-y border-hair scroll-mt-16" style="background:#EEE8DB">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div data-reveal class="mb-10 md:mb-14 max-w-2xl">
+      <p data-i18n="sec.building.eyebrow" class="eyebrow mb-5">02 — БАРИЛГА</p>
+      <h2 data-i18n="sec.building.title" class="font-display font-normal text-display-lg mb-5">Нэг барилга. Хоорондоо хамааралгүй зургаан урсгал.</h2>
+      <p data-i18n="sec.building.intro" class="text-mist">Нэг 15 давхар цамхагт хамааралгүй зориулалтууд.</p>
+    </div>
+
+    <!-- six income streams overview -->
+    <h3 data-i18n="streams.title" class="eyebrow text-mist-dim mb-4">Зургаан орлогын урсгал</h3>
+    <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-hair/60 ring-1 ring-hair mb-12 md:mb-16">
+      <li class="bg-ink px-4 py-5"><span class="block w-2 h-2 mb-3" style="background:#B58A2E"></span><span data-i18n="stream.residences" class="block text-paper text-sm font-display">Худалдах орон сууц</span><span data-i18n="stream.res.note" class="block font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1.5">8–15 давхар</span></li>
+      <li class="bg-ink px-4 py-5"><span class="block w-2 h-2 mb-3" style="background:#2E7E6E"></span><span data-i18n="stream.serviced" class="block text-paper text-sm font-display">Үйлчилгээт орон сууц</span><span data-i18n="stream.serv.note" class="block font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1.5">A–H нэгж</span></li>
+      <li class="bg-ink px-4 py-5"><span class="block w-2 h-2 mb-3" style="background:#7E4E6E"></span><span data-i18n="stream.hotel" class="block text-paper text-sm font-display">Зочид буудал</span><span data-i18n="stream.hotel.note" class="block font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1.5">2–6 давхар</span></li>
+      <li class="bg-ink px-4 py-5"><span class="block w-2 h-2 mb-3" style="background:#3F6E8C"></span><span data-i18n="stream.office" class="block text-paper text-sm font-display">Оффис</span><span data-i18n="stream.off.note" class="block font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1.5">5–7 давхар</span></li>
+      <li class="bg-ink px-4 py-5"><span class="block w-2 h-2 mb-3" style="background:#9A6E2E"></span><span data-i18n="stream.commercial" class="block text-paper text-sm font-display">Худалдаа үйлчилгээ</span><span data-i18n="stream.com.note" class="block font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1.5">1–4 давхар</span></li>
+      <li class="bg-ink px-4 py-5"><span class="block w-2 h-2 mb-3" style="background:#5F7065"></span><span data-i18n="stream.parking" class="block text-paper text-sm font-display">Авто зогсоол</span><span data-i18n="stream.park.note" class="block font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1.5">B1</span></li>
+    </ul>
+
+    <div class="grid lg:grid-cols-[minmax(0,330px)_1fr] gap-6 lg:gap-12">
+      <!-- streams (physical floor stack) -->
+      <div id="stackTabs" role="tablist" aria-orientation="vertical" aria-label="Floor stack" class="flex flex-col gap-1.5 min-h-[440px]">
+        <button role="tab" id="tab-res" data-zone="res" aria-selected="true" aria-controls="bPanel" tabindex="0" class="band text-left bg-ink-card px-5 py-4 flex items-start justify-between gap-3" style="flex-grow:8;--tint:#B58A2E;--i:4">
+          <span class="min-w-0"><span data-i18n="stream.residences" class="block font-display text-lg leading-tight">Худалдах орон сууц</span><span class="block eyebrow mt-1.5 text-mist-dim">8–15</span></span>
+          <span class="w-2 h-2 mt-1 shrink-0" style="background:#B58A2E"></span>
+        </button>
+        <button role="tab" id="tab-off" data-zone="off" aria-selected="false" aria-controls="bPanel" tabindex="-1" class="band text-left bg-ink-card px-5 py-4 flex items-start justify-between gap-3" style="flex-grow:3;--tint:#3F6E8C;--i:3">
+          <span class="min-w-0"><span data-i18n="stream.office" class="block font-display text-lg leading-tight">Оффис</span><span class="block eyebrow mt-1.5 text-mist-dim">5–7</span></span>
+          <span class="w-2 h-2 mt-1 shrink-0" style="background:#3F6E8C"></span>
+        </button>
+        <button role="tab" id="tab-hotel" data-zone="hotel" aria-selected="false" aria-controls="bPanel" tabindex="-1" class="band text-left bg-ink-card px-5 py-4 flex items-start justify-between gap-3" style="flex-grow:5;--tint:#7E4E6E;--i:2">
+          <span class="min-w-0"><span data-i18n="stream.hotel" class="block font-display text-lg leading-tight">Зочид буудал</span><span class="block eyebrow mt-1.5 text-mist-dim">2–6</span></span>
+          <span class="w-2 h-2 mt-1 shrink-0" style="background:#7E4E6E"></span>
+        </button>
+        <button role="tab" id="tab-com" data-zone="com" aria-selected="false" aria-controls="bPanel" tabindex="-1" class="band text-left bg-ink-card px-5 py-4 flex items-start justify-between gap-3" style="flex-grow:4;--tint:#9A6E2E;--i:1">
+          <span class="min-w-0"><span data-i18n="stream.commercial" class="block font-display text-lg leading-tight">Худалдаа үйлчилгээ</span><span class="block eyebrow mt-1.5 text-mist-dim">1–4</span></span>
+          <span class="w-2 h-2 mt-1 shrink-0" style="background:#9A6E2E"></span>
+        </button>
+        <button role="tab" id="tab-park" data-zone="park" aria-selected="false" aria-controls="bPanel" tabindex="-1" class="band text-left bg-ink-card px-5 py-4 flex items-start justify-between gap-3" style="flex-grow:1;--tint:#5F7065;--i:0">
+          <span class="min-w-0"><span data-i18n="stream.parking" class="block font-display text-lg leading-tight">Авто зогсоол</span><span class="block eyebrow mt-1.5 text-mist-dim">B1</span></span>
+          <span class="w-2 h-2 mt-1 shrink-0" style="background:#5F7065"></span>
+        </button>
+      </div>
+
+      <!-- panel -->
+      <div id="bPanel" role="tabpanel" tabindex="0" aria-labelledby="tab-res" class="min-w-0">
+        <figure class="img-cine is-in relative ring-1 ring-hair bg-paper/[0.02] mb-6">
+          <div id="pFloorTag" class="absolute z-10 top-3 left-3 font-mono text-[10px] uppercase tracking-[0.16em] text-paper/80 bg-ink/55 backdrop-blur px-2.5 py-1">Индикатив</div>
+          <picture>
+            <source id="pSource" type="image/webp" srcset="assets/floor-res-1600.webp" />
+            <img id="pImg" src="assets/floor-res-1600.jpg" width="1600" height="893" loading="lazy" decoding="async" alt="" class="w-full max-h-[460px] object-contain bg-ink p-2 sm:p-4" />
+          </picture>
+        </figure>
+
+        <div class="flex items-start justify-between gap-4 flex-wrap mb-3">
+          <div>
+            <div class="flex items-center gap-3 mb-1"><span id="pDot" class="w-2.5 h-2.5" style="background:#B58A2E"></span><span id="pTag" class="eyebrow text-brass-300">Хөрөнгийн өгөөж</span></div>
+            <h3 id="pName" class="font-display text-display-md">Худалдах орон сууц</h3>
+          </div>
+          <div id="pFloorsBox" class="text-right"><div data-i18n="label.floors" class="eyebrow text-mist-dim mb-1">Давхар</div><div id="pFloors" class="font-mono text-paper tnum">8–15</div></div>
+        </div>
+        <p id="pLogic" class="text-mist max-w-2xl mb-6">64 орон сууцны борлуулалт — хөрөнгийн үндсэн өгөөж.</p>
+
+        <dl id="pFacts" class="grid grid-cols-3 gap-px bg-hair/60 ring-1 ring-hair mb-2">
+          <div class="bg-ink px-4 py-4 min-w-0"><dt id="pF0L" class="eyebrow text-mist-dim mb-2">Давхар</dt><dd id="pF0V" class="font-mono text-paper tnum break-words">8–15</dd></div>
+          <div class="bg-ink px-4 py-4 min-w-0"><dt id="pF1L" class="eyebrow text-mist-dim mb-2">Нэгж</dt><dd id="pF1V" class="font-mono text-paper tnum break-words">64</dd></div>
+          <div class="bg-ink px-4 py-4 min-w-0"><dt id="pF2L" class="eyebrow text-mist-dim mb-2">Талбай</dt><dd id="pF2V" class="font-mono text-paper tnum break-words">564 m²</dd></div>
+        </dl>
+
+        <!-- residences: unit sub-gallery -->
+        <div id="unitWrap" class="mt-8">
+          <div class="flex items-center justify-between gap-3 mb-4">
+            <p id="unitTitle" data-i18n="explorer.units.title" class="eyebrow text-mist">Энэ давхрын орон сууцууд</p>
+            <button id="unitReset" type="button" data-i18n="floor.full" class="font-mono text-[11px] tracking-[0.12em] uppercase text-mist-dim hover:text-brass-300 hidden">Бүтэн давхар</button>
+          </div>
+          <div role="tablist" aria-label="Residence types" class="grid grid-cols-4 sm:grid-cols-8 gap-1.5 mb-6">
+            <button role="tab" data-unit="A" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">A</button>
+            <button role="tab" data-unit="B" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">B</button>
+            <button role="tab" data-unit="C" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">C</button>
+            <button role="tab" data-unit="D" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">D</button>
+            <button role="tab" data-unit="E" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">E</button>
+            <button role="tab" data-unit="F" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">F</button>
+            <button role="tab" data-unit="G" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">G</button>
+            <button role="tab" data-unit="H" aria-selected="false" class="chip btn font-mono text-sm border border-brass-500/25 bg-ink-card text-paper py-2.5">H</button>
+          </div>
+          <div id="unitDetail" class="hidden grid sm:grid-cols-[1fr_1.1fr] gap-6 items-start border-t border-hair pt-6">
+            <div class="flex items-baseline gap-4">
+              <span id="uLetter" class="font-display text-display-md text-brass-300">A</span>
+              <div>
+                <div id="uBed" class="eyebrow text-mist-dim mb-2">2 унтлагын</div>
+                <div class="flex items-baseline gap-1"><span id="uArea" class="font-mono text-spec text-paper tnum">74.32</span><span class="font-mono text-mist text-sm">m²</span></div>
+              </div>
+            </div>
+            <dl id="uRooms" class="text-sm"></dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 · SERVICED APARTMENTS -->
+<section id="serviced" class="py-24 md:py-32 scroll-mt-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+    <figure data-reveal class="img-cine relative ring-1 ring-hair">
+      <span class="absolute z-10 left-4 top-4 w-2.5 h-2.5" style="background:#2E7E6E"></span>
+      <picture>
+        <source type="image/webp" srcset="assets/floor-serv-800.webp 800w, assets/floor-serv-1600.webp 1600w" sizes="(min-width:1024px) 46vw, 100vw" />
+        <img src="assets/floor-serv-1600.jpg" srcset="assets/floor-serv-800.jpg 800w, assets/floor-serv-1600.jpg 1600w" sizes="(min-width:1024px) 46vw, 100vw"
+             width="1600" height="893" loading="lazy" decoding="async" data-i18n-attr="alt" data-i18n="stream.serviced" alt="Үйлчилгээт орон сууц" class="w-full h-full object-cover" />
+      </picture>
+    </figure>
+    <div data-reveal style="--i:1">
+      <p data-i18n="sec.serv.eyebrow" class="eyebrow mb-5">03 — ҮЙЛЧИЛГЭЭТ ОРОН СУУЦ</p>
+      <h2 data-i18n="sec.serv.title" class="font-display font-normal text-display-lg mb-5">Эдийн засгийг хөтөлдөг хүмүүст зориулсан үйлчилгээтэй амьдрал.</h2>
+      <p data-i18n="serv.body" class="text-mist mb-8 max-w-xl">A–H нэгжийг удирдлагатай түрээсийн санд оруулна.</p>
+      <dl class="grid sm:grid-cols-2 gap-px bg-hair/60 ring-1 ring-hair">
+        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b1.l" class="eyebrow text-mist-dim mb-2">Зорилтот түрээслэгч</dt><dd data-i18n="serv.b1.v" class="text-paper text-sm">Уул уурхай, дипломат, бизнес зочид</dd></div>
+        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b2.l" class="eyebrow text-mist-dim mb-2">Бүтцийн эрэлт</dt><dd data-i18n="serv.b2.v" class="text-paper text-sm">Оюу Толгой ~20,000 ажилтан</dd></div>
+        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b3.l" class="eyebrow text-mist-dim mb-2">Түрээсийн өгөөж</dt><dd data-i18n="serv.b3.v" class="text-paper text-sm">~10.75% (нийт, 2025 Q4)</dd></div>
+        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b4.l" class="eyebrow text-mist-dim mb-2">Загвар</dt><dd data-i18n="serv.b4.v" class="text-paper text-sm">Худалдаж ав → түрээсийн сан</dd></div>
+      </dl>
+      <p data-i18n="serv.note" class="text-mist-dim text-xs mt-4">Өгөөжийн тоо нийт дүн.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 04 · HOTEL -->
+<section id="hotel" class="py-24 md:py-32 border-y border-hair scroll-mt-16" style="background:#EEE8DB">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+    <div data-reveal class="order-last lg:order-first">
+      <p data-i18n="sec.hotel.eyebrow" class="eyebrow mb-5">04 — ЗОЧИД БУУДАЛ</p>
+      <h2 data-i18n="sec.hotel.title" class="font-display font-normal text-display-lg mb-5">Аялал жуулчлалын дээд амжилтын дунд ховор өрөөнүүд.</h2>
+      <p data-i18n="hotel.body" class="text-mist mb-8 max-w-xl">2–6 давхарт тусдаа урсгал болох зочид буудал.</p>
+      <dl class="grid sm:grid-cols-2 gap-px bg-hair/60 ring-1 ring-hair">
+        <div class="bg-ink px-5 py-5"><dt data-i18n="hotel.b1.l" class="eyebrow text-mist-dim mb-2">Жуулчдын тоо</dt><dd data-i18n="hotel.b1.v" class="text-paper text-sm">~846,103 (2025, дээд амжилт)</dd></div>
+        <div class="bg-ink px-5 py-5"><dt data-i18n="hotel.b2.l" class="eyebrow text-mist-dim mb-2">Аялалын орлого</dt><dd data-i18n="hotel.b2.v" class="text-paper text-sm">~1.6 тэрбум ам.доллар (2024)</dd></div>
+        <div class="bg-ink px-5 py-5"><dt data-i18n="hotel.b3.l" class="eyebrow text-mist-dim mb-2">Улсын зорилт</dt><dd data-i18n="hotel.b3.v" class="text-paper text-sm">2 сая зочин (2030)</dd></div>
+        <div class="bg-ink px-5 py-5"><dt data-i18n="hotel.b4.l" class="eyebrow text-mist-dim mb-2">Брэндийн орц</dt><dd data-i18n="hotel.b4.v" class="text-paper text-sm">Marriott, Hilton Conrad</dd></div>
+      </dl>
+      <p data-i18n="hotel.note" class="text-mist-dim text-xs mt-4">Хамгийн улирлын чанартай урсгал.</p>
+    </div>
+    <figure data-reveal style="--i:1" class="img-cine relative ring-1 ring-hair">
+      <span class="absolute z-10 left-4 top-4 w-2.5 h-2.5" style="background:#7E4E6E"></span>
+      <picture>
+        <source type="image/webp" srcset="assets/aerial-1-1200.webp 1200w, assets/aerial-1-1600.webp 1600w" sizes="(min-width:1024px) 46vw, 100vw" />
+        <img src="assets/aerial-1-1600.jpg" srcset="assets/aerial-1-1200.jpg 1200w, assets/aerial-1-1600.jpg 1600w" sizes="(min-width:1024px) 46vw, 100vw"
+             width="1600" height="1033" loading="lazy" decoding="async" data-i18n-attr="alt" data-i18n="stream.hotel" alt="Зочид буудал" class="w-full h-full object-cover" />
+      </picture>
+    </figure>
+  </div>
+</section>
+
+<!-- 05 · THESIS -->
+<section id="thesis" class="py-24 md:py-32 scroll-mt-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div data-reveal class="mb-12 md:mb-16 max-w-3xl">
+      <p data-i18n="sec.thesis.eyebrow" class="eyebrow mb-5">05 — ТЕЗИС</p>
+      <h2 data-i18n="sec.thesis.title" class="font-display font-normal text-display-lg">Зургаан орлогын урсгал. Нэг хаяг.</h2>
+    </div>
+    <div class="border-t border-hair">
+      <article data-reveal class="grid md:grid-cols-[80px_1fr] gap-4 md:gap-10 py-9 border-b border-hair">
+        <div class="font-mono text-brass-400 text-sm">01</div>
+        <div class="max-w-3xl"><h3 data-i18n="thesis.1.title" class="font-display text-display-md mb-3">Олон талт мөнгөн урсгал</h3><p data-i18n="thesis.1.body" class="text-mist">Хоорондоо хамааралгүй зургаан урсгал.</p></div>
+      </article>
+      <article data-reveal style="--i:1" class="grid md:grid-cols-[80px_1fr] gap-4 md:gap-10 py-9 border-b border-hair">
+        <div class="font-mono text-brass-400 text-sm">02</div>
+        <div class="max-w-3xl"><h3 data-i18n="thesis.2.title" class="font-display text-display-md mb-3">Өндөр орлого ба өсөлт</h3><p data-i18n="thesis.2.body" class="text-mist">Өгөөж ~10.75%; үнэ тогтмол өссөн.</p></div>
+      </article>
+      <article data-reveal style="--i:2" class="grid md:grid-cols-[80px_1fr] gap-4 md:gap-10 py-9 border-b border-hair">
+        <div class="font-mono text-brass-400 text-sm">03</div>
+        <div class="max-w-3xl"><h3 data-i18n="thesis.3.title" class="font-display text-display-md mb-3">Макро түшиц</h3><p data-i18n="thesis.3.body" class="text-mist">ДНБ +6.9%; зэрэглэл дээшилсэн.</p></div>
+      </article>
+      <article data-reveal style="--i:3" class="grid md:grid-cols-[80px_1fr] gap-4 md:gap-10 py-9 border-b border-hair">
+        <div class="font-mono text-brass-400 text-sm">04</div>
+        <div class="max-w-3xl"><h3 data-i18n="thesis.4.title" class="font-display text-display-md mb-3">Тодорхой өмчлөл</h3><p data-i18n="thesis.4.body" class="text-mist">Гадаадын иргэд орон сууц өмчилнө; газар — ашиглах эрх.</p></div>
+      </article>
+    </div>
+    <p data-reveal data-i18n="thesis.risk" class="text-mist-dim text-sm mt-8 max-w-3xl border-l-2 border-brass-500/40 pl-5">Эрсдэлийн тэмдэглэл.</p>
+  </div>
+</section>
+
+<!-- 06 · MARKET CONTEXT -->
+<section id="market" class="py-24 md:py-32 border-y border-hair scroll-mt-16" style="background:#EEE8DB">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div data-reveal class="mb-12 md:mb-16 max-w-3xl">
+      <p data-i18n="sec.market.eyebrow" class="eyebrow mb-5">06 — ЗАХ ЗЭЭЛ</p>
+      <h2 data-i18n="sec.market.title" class="font-display font-normal text-display-lg mb-5">Бүтцийн өсөлтийн мөчлөгт буй нийслэл.</h2>
+      <p data-i18n="sec.market.intro" class="text-mist">Эрэлт нийлүүлэлтээ давж байна.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-hair/60 ring-1 ring-hair">
+      <div class="stat-card bg-ink px-6 py-7"><div class="font-mono text-spec text-brass-500 tnum">+6.9%</div><div data-i18n="mkt.s1.l" class="text-paper text-sm mt-3">ДНБ-ийн бодит өсөлт</div><div data-i18n="mkt.s1.src" class="font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1">Дэлхийн банк · 2025</div></div>
+      <div class="stat-card bg-ink px-6 py-7"><div class="font-mono text-spec text-paper tnum">B1 · BB-</div><div data-i18n="mkt.s2.l" class="text-paper text-sm mt-3">Засгийн зэрэглэл</div><div data-i18n="mkt.s2.src" class="font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1">Moody’s / S&P · 2025.10</div></div>
+      <div class="stat-card bg-ink px-6 py-7"><div class="font-mono text-spec text-paper tnum">$1,335<span class="text-base text-mist align-top ml-1">/m²</span></div><div data-i18n="mkt.s3.l" class="text-paper text-sm mt-3">Шинэ орон сууцны үнэ</div><div data-i18n="mkt.s3.src" class="font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1">GPG / ҮСХ · 2026.02</div></div>
+      <div class="stat-card bg-ink px-6 py-7"><div class="font-mono text-spec text-brass-500 tnum">+15.4%</div><div data-i18n="mkt.s4.l" class="text-paper text-sm mt-3">Орон сууцны үнийн индекс</div><div data-i18n="mkt.s4.src" class="font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1">ҮСХ · 2025.06</div></div>
+      <div class="stat-card bg-ink px-6 py-7"><div class="font-mono text-spec text-paper tnum">~10.75%</div><div data-i18n="mkt.s5.l" class="text-paper text-sm mt-3">Түрээсийн өгөөж (нийт)</div><div data-i18n="mkt.s5.src" class="font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1">GPG · 2025 Q4</div></div>
+      <div class="stat-card bg-ink px-6 py-7"><div class="font-mono text-spec text-paper tnum">846,103</div><div data-i18n="mkt.s6.l" class="text-paper text-sm mt-3">Гадаад жуулчид</div><div data-i18n="mkt.s6.src" class="font-mono text-mist-dim text-[11px] tracking-[0.06em] mt-1">ҮСХ / Montsame · 2025</div></div>
+    </div>
+    <p data-i18n="mkt.foot" class="text-mist-dim text-xs mt-4">Тоонууд эх сурвалжтай, тухайн үеийнх.</p>
+  </div>
+</section>
+
+<!-- 07 · SPECIFICATIONS (gated) -->
+<section id="numbers" class="py-24 md:py-32 scroll-mt-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div data-reveal class="mb-12 md:mb-16 max-w-2xl">
+      <p data-i18n="sec.numbers.eyebrow" class="eyebrow mb-5">07 — ҮЗҮҮЛЭЛТ</p>
+      <h2 data-i18n="sec.numbers.title" class="font-display font-normal text-display-lg mb-5">Талбай, төлөвлөлт, санхүү — хүсэлтээр.</h2>
+      <p data-i18n="sec.numbers.intro" class="text-mist">Талбайн үзүүлэлт нийтэд ил.</p>
+    </div>
+    <div class="grid lg:grid-cols-[1.3fr_1fr] gap-10 lg:gap-16">
+      <div data-reveal>
+        <h3 data-i18n="num.public.title" class="eyebrow text-mist-dim mb-5">Нийтэд ил</h3>
+        <dl class="grid sm:grid-cols-2 gap-px bg-hair/60 ring-1 ring-hair">
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.gfa" class="text-mist text-sm">Нийт талбай</dt><dd class="tnum font-mono text-paper">13,207 m²</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.saleable" class="text-mist text-sm">Ашигтай талбай</dt><dd class="tnum font-mono text-paper">8,885 m²</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.land" class="text-mist text-sm">Газар</dt><dd class="tnum font-mono text-paper">3,175 m²</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.floors" class="text-mist text-sm">Давхар</dt><dd class="tnum font-mono text-paper">15 + B1</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.residences" class="text-mist text-sm">Орон сууц</dt><dd class="tnum font-mono text-paper">64</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.hotelarea" class="text-mist text-sm">Буудлын талбай</dt><dd class="tnum font-mono text-paper">740 m²</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.parking" class="text-mist text-sm">Авто зогсоол</dt><dd class="tnum font-mono text-paper">20</dd></div>
+          <div class="bg-ink flex items-baseline justify-between gap-4 px-5 py-4"><dt data-i18n="num.grade" class="text-mist text-sm">Бүсийн зэрэглэл</dt><dd data-i18n="num.grade.v" class="font-mono text-brass-300">А зэрэглэл</dd></div>
+        </dl>
+      </div>
+      <div data-reveal style="--i:1">
+        <div class="gate-card ring-1 ring-brass-500/25 p-6 sm:p-8">
+          <h3 data-i18n="num.gated.title" class="eyebrow text-brass-300 mb-5">Танилцуулгад</h3>
+          <ul>
+            <li class="lockrow flex items-center justify-between gap-4 py-5 border-b"><span data-i18n="num.cost" class="text-ink-card/90 text-sm">Бүтээн байгуулалтын өртөг</span><span class="inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.12em] uppercase text-brass-300 shrink-0"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 10V8a6 6 0 1112 0v2" stroke="currentColor" stroke-width="2"/><rect x="4" y="10" width="16" height="10" stroke="currentColor" stroke-width="2"/></svg><span data-i18n="field.onrequest">Хүсэлтээр</span></span></li>
+            <li class="lockrow flex items-center justify-between gap-4 py-5 border-b"><span data-i18n="num.revenue" class="text-ink-card/90 text-sm">Нэгжийн үнэ ба өгөөж</span><span class="inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.12em] uppercase text-brass-300 shrink-0"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 10V8a6 6 0 1112 0v2" stroke="currentColor" stroke-width="2"/><rect x="4" y="10" width="16" height="10" stroke="currentColor" stroke-width="2"/></svg><span data-i18n="field.onrequest">Хүсэлтээр</span></span></li>
+            <li class="lockrow flex items-center justify-between gap-4 py-5"><span data-i18n="num.irr" class="text-ink-card/90 text-sm">Орлогын загвар ба IRR</span><span class="inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.12em] uppercase text-brass-300 shrink-0"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 10V8a6 6 0 1112 0v2" stroke="currentColor" stroke-width="2"/><rect x="4" y="10" width="16" height="10" stroke="currentColor" stroke-width="2"/></svg><span data-i18n="field.onrequest">Хүсэлтээр</span></span></li>
+          </ul>
+          <p data-i18n="num.gated.note" class="text-ink-card/60 text-xs mt-4">Шалгарсан хөрөнгө оруулагч, түншүүдтэй хуваалцана.</p>
+          <a href="#partner" data-i18n="num.unlock" class="btn inline-flex items-center mt-6 rounded-full bg-brass-500 hover:bg-brass-400 text-ink font-mono text-[12px] tracking-[0.16em] uppercase px-5 py-2.5">Санхүүг нээх</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 · DEVELOPER -->
+<section id="dev" class="py-24 md:py-32 border-t border-hair scroll-mt-16">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+    <figure data-reveal class="img-cine relative ring-1 ring-hair order-last lg:order-first">
+      <picture>
+        <source type="image/webp" srcset="assets/ext-2-800.webp 800w, assets/ext-2-1600.webp 1600w" sizes="(min-width:1024px) 46vw, 100vw" />
+        <img src="assets/ext-2-1600.jpg" srcset="assets/ext-2-800.jpg 800w, assets/ext-2-1600.jpg 1600w" sizes="(min-width:1024px) 46vw, 100vw"
+             width="1600" height="1033" loading="lazy" decoding="async" data-i18n-attr="alt" data-i18n="dev.img.alt" alt="NOMT цогцолбор" class="w-full h-full object-cover" />
+      </picture>
+      <figcaption data-i18n="dev.img.cap" class="absolute z-10 left-4 bottom-4 font-mono text-[10px] uppercase tracking-[0.16em] text-paper/80 bg-ink/50 backdrop-blur px-2.5 py-1">NOMT · Уран сайхны төсөөлөл</figcaption>
+    </figure>
+    <div data-reveal style="--i:1">
+      <p data-i18n="sec.dev.eyebrow" class="eyebrow mb-5">08 — ХӨГЖҮҮЛЭГЧ</p>
+      <h2 data-i18n="sec.dev.title" class="font-display font-normal text-display-lg mb-3">JTSG ХХК хэрэгжүүлж байна.</h2>
+      <p class="font-display text-xl text-brass-300 mb-1">JTSG LLC</p>
+      <p data-i18n="dev.legal" class="font-mono text-[11px] tracking-[0.1em] text-mist-dim mb-6">ЖЭЙ ТИ ЭС Жи ХХК</p>
+      <p data-i18n="dev.body" class="text-mist mb-8 max-w-xl">НОМТ-ыг ЖЭЙ ТИ ЭС Жи ХХК хөгжүүлж байна.</p>
+      <ul class="grid sm:grid-cols-2 gap-px bg-hair/60 ring-1 ring-hair">
+        <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.land" class="block text-paper text-sm">Газар баталгаажсан · 3,175 m²</span></li>
+        <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.set" class="block text-paper text-sm">Зураг төсөл бэлэн · 2026.02</span></li>
+        <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.seismic" class="block text-paper text-sm">Газар хөдлөлт 8 балл · −36 °C</span></li>
+        <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.grade" class="block text-paper text-sm">А зэрэглэлийн байршил</span></li>
+      </ul>
+      <ul class="flex flex-wrap gap-x-5 gap-y-2 mt-6 text-mist-dim font-mono text-[11px] tracking-[0.08em]">
+        <li data-i18n="dev.spec.struct">Цутгамал ТӨ хүрээ</li>
+        <li data-i18n="dev.spec.facade">Метал + шил фасад</li>
+        <li data-i18n="dev.spec.fire">Гал/бат бөх II зэрэг</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 09 · PARTNER -->
+<section id="partner" class="relative py-24 md:py-32 overflow-hidden border-t border-hair scroll-mt-16">
+  <div class="absolute inset-0 -z-10" style="background:radial-gradient(50% 60% at 84% 12%, rgba(193,154,60,.10), transparent 60%), #EEE8DB;"></div>
+  <div class="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+    <div data-reveal>
+      <p data-i18n="sec.partner.eyebrow" class="eyebrow mb-5">09 — ХАМТРАЛ</p>
+      <h2 data-i18n="partner.head" class="font-display font-normal text-display-lg mb-5">Бүрэн танилцуулгыг аваарай.</h2>
+      <p data-i18n="partner.body" class="text-mist mb-7 max-w-md">Төлөвлөлтийн зураг, орлогын загвар, өртөг ба өгөөжийн тооцоо — хүсэлтээр илгээнэ.</p>
+      <p data-i18n="form.privacy" class="text-mist-dim text-xs max-w-sm">Бид таны мэдээллийг зөвхөн багц илгээх, хариу барихад ашиглана.</p>
+    </div>
+
+    <form id="packForm" novalidate data-reveal style="--i:1" class="ring-1 ring-hair bg-ink/70 backdrop-blur p-6 sm:p-8">
+      <div class="flex items-center justify-between mb-6">
+        <span id="stepLabel" data-i18n="form.step.label" class="eyebrow text-mist-dim">Алхам 1 / 2</span>
+        <div class="flex gap-1.5"><span id="dot1" class="w-6 h-0.5 bg-brass-500"></span><span id="dot2" class="w-6 h-0.5 bg-hair"></span></div>
+      </div>
+      <div id="step1" class="space-y-5">
+        <label class="block"><span data-i18n="form.name" class="block eyebrow text-mist mb-2">Нэр</span><input name="name" type="text" required autocomplete="name" class="w-full bg-transparent border-b border-hair focus:border-brass-400 py-2.5 text-paper text-sm" /></label>
+        <label class="block"><span data-i18n="form.email" class="block eyebrow text-mist mb-2">И-мэйл</span><input name="email" type="email" required autocomplete="email" class="w-full bg-transparent border-b border-hair focus:border-brass-400 py-2.5 text-paper text-sm" /></label>
+        <button type="button" id="toStep2" data-i18n="form.next" class="btn w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-brass-500 hover:bg-brass-400 text-ink-card font-mono text-[12px] tracking-[0.16em] uppercase px-6 py-3 mt-1">Үргэлжлүүлэх</button>
+      </div>
+      <div id="step2" class="space-y-5 hidden">
+        <div class="grid sm:grid-cols-2 gap-5">
+          <label class="block"><span data-i18n="form.company" class="block eyebrow text-mist mb-2">Байгууллага</span><input name="company" type="text" autocomplete="organization" class="w-full bg-transparent border-b border-hair focus:border-brass-400 py-2.5 text-paper text-sm" /></label>
+          <label class="block"><span data-i18n="form.phone" class="block eyebrow text-mist mb-2">Утас</span><input name="phone" type="tel" autocomplete="tel" class="w-full bg-transparent border-b border-hair focus:border-brass-400 py-2.5 text-paper text-sm" /></label>
+        </div>
+        <label class="block"><span data-i18n="form.type" class="block eyebrow text-mist mb-2">Сонирхол</span>
+          <select name="type" class="w-full bg-ink border-b border-hair focus:border-brass-400 py-2.5 text-paper text-sm">
+            <option data-i18n="form.type.opt1" value="For-sale residences">Худалдах орон сууц</option>
+            <option data-i18n="form.type.opt2" value="Serviced apartments">Үйлчилгээт орон сууц</option>
+            <option data-i18n="form.type.opt3" value="Hotel / office">Зочид буудал / оффис</option>
+            <option data-i18n="form.type.opt4" value="Fund / partner / individual">Сан / хамтрагч / хувь хүн</option>
+          </select>
+        </label>
+        <div class="flex flex-wrap items-center gap-3 pt-1">
+          <button type="submit" data-i18n="form.submit" class="btn inline-flex items-center rounded-full bg-brass-500 hover:bg-brass-400 text-ink-card font-mono text-[12px] tracking-[0.16em] uppercase px-6 py-3">Танилцуулга авах</button>
+          <button type="button" id="toStep1" data-i18n="form.back" class="btn inline-flex items-center rounded-full border border-brass-500/40 hover:border-brass-300 text-paper font-mono text-[12px] tracking-[0.16em] uppercase px-6 py-3">Буцах</button>
+        </div>
+      </div>
+      <p id="formMsg" role="status" aria-live="polite" class="text-sm mt-5 min-h-[1.25rem]"></p>
+      <a id="visitLink" href="mailto:lcdelgets@gmail.com?subject=NOMT%20site%20visit" data-i18n="form.visit" class="inline-block mt-3 font-mono text-[11px] tracking-[0.12em] uppercase text-mist-dim hover:text-brass-300 underline underline-offset-4">Газар дээр нь үзэх</a>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="border-t border-hair bg-ink">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+    <div class="grid md:grid-cols-[1.4fr_1fr_1fr] gap-10">
+      <div>
+        <div class="flex items-center gap-3 mb-4"><span class="inline-grid place-items-center w-7 h-7 bg-gradient-to-br from-brass-300 to-brass-600 text-ink-card font-display text-sm">N</span><span class="font-display text-xl tracking-[0.12em]">NOMT</span></div>
+        <p data-i18n="footer.descriptor" class="text-mist text-sm max-w-xs">ЖЭЙ ТИ ЭС Жи ХХК — Олон зориулалттай цогцолбор</p>
+      </div>
+      <div>
+        <h3 data-i18n="footer.contact" class="eyebrow text-mist-dim mb-4">Холбоо барих</h3>
+        <ul class="space-y-2 text-sm"><li><a href="mailto:lcdelgets@gmail.com" class="text-paper hover:text-brass-300">lcdelgets@gmail.com</a></li><li data-i18n="footer.location.v" class="text-mist">Улаанбаатар, Монгол</li></ul>
+      </div>
+      <div>
+        <h3 data-i18n="footer.lang.l" class="eyebrow text-mist-dim mb-4">Хэл</h3>
+        <div class="flex gap-3 font-mono text-[11px] tracking-[0.12em]">
+          <button type="button" data-lang="mn" class="btn text-mist hover:text-paper aria-pressed:text-brass-300" aria-pressed="true">МН</button>
+          <button type="button" data-lang="zh" class="btn text-mist hover:text-paper aria-pressed:text-brass-300" aria-pressed="false">中文</button>
+          <button type="button" data-lang="en" class="btn text-mist hover:text-paper aria-pressed:text-brass-300" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+    <div class="rule-l mt-12 mb-6"></div>
+    <p data-i18n="footer.disclaimer" class="text-mist-dim text-xs leading-relaxed max-w-3xl">Энэ хуудас нь зөвхөн хэлэлцүүлгийн зорилготой жишиг танилцуулга.</p>
+    <p data-i18n="footer.rights" class="text-mist-dim text-xs mt-3">© 2026 ЖЭЙ ТИ ЭС Жи ХХК. Бүх эрх хуулиар хамгаалагдсан.</p>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
