@@ -31,10 +31,10 @@
   var I18N={
     mn:{
       'a11y.skip':'Агуулга руу шилжих','nav.cta':'Танилцуулга авах',
-      'nav.location':'Байршил','nav.building':'Барилга','nav.serviced':'Үйлчилгээт','nav.hotel':'Буудал','nav.market':'Зах зээл','nav.contact':'Холбоо барих',
+      'nav.location':'Байршил','nav.building':'Барилга','nav.serviced':'Үйлчилгээт','nav.hotel':'Буудал','nav.contact':'Холбоо барих',
 
       'hero.eyebrow':'JTSG ХХК-ИЙН ТӨСӨЛ · ТӨВ УЛААНБААТАР',
-      'hero.headline':'Улаанбаатарын зүрхэнд — бүх хот ажиллахаар ирдэг газар.',
+      'hero.headline':'Улаанбаатарын зүрхэнд.',
       'hero.sub':'Сүхбаатар дүүргийн төрийн, элчингийн, их сургуулийн цөмд байрлах 15 давхар олон зориулалттай цогцолбор: худалдах орон сууц, үйлчилгээт орон сууц, зочид буудал, оффис, худалдаа — нэг хаягт, зургаан орлогын урсгал.',
       'hero.cta1':'Танилцуулга авах','hero.cta2':'Байршлыг үзэх','hero.badge':'Уран сайхны төсөөлөл','hero.img.alt':'NOMT барилгын гадна төрх — уран сайхны төсөөлөл',
       'hero.stat1.v':'15','hero.stat1.l':'Давхар + B1','hero.stat2.v':'64','hero.stat2.l':'Орон сууц','hero.stat3.v':'6','hero.stat3.l':'Орлогын урсгал','hero.stat4.l':'Нийт талбай',
@@ -88,25 +88,17 @@
       'thesis.4.title':'Тодорхой өмчлөл','thesis.4.body':'Гадаадын иргэд орон сууцыг бүрэн өмчилж, нутгийнхтай ижил гэрчилгээ авна; газрыг өмчлөхгүй — зөвхөн ашиглах эрх. (Худалдан авагч хууль зүйн дүгнэлт авахыг зөвлөж байна.)',
       'thesis.risk':'Эрсдэлийн тэмдэглэл: Монголын өсөлт, валют, үл хөдлөхийн эрэлт зэс, нүүрсэнд ихээхэн хамааралтай — түүхий эд эсвэл Хятадын эрэлтийн уналт нь гол эрсдэл; төгрөг ам.долларын эсрэг тогтмол суларсаар ирсэн.',
 
-      'sec.market.eyebrow':'06 — ЗАХ ЗЭЭЛ','sec.market.title':'Бүтцийн өсөлтийн мөчлөгт буй нийслэл.','sec.market.intro':'Монгол 2024 онд дунд-дээд орлоготой орон болж, нэг сард хоёр удаа зэрэглэлээ дээшлүүлэв. Барилга өндөр хэвээр ч Улаанбаатарын үнэ өссөөр — эрэлт нийлүүлэлтээ давж байна.',
-      'mkt.s1.l':'ДНБ-ийн бодит өсөлт','mkt.s1.src':'Дэлхийн банк · 2025',
-      'mkt.s2.l':'Засгийн зэрэглэл','mkt.s2.src':'Moody’s / S&P · 2025.10',
-      'mkt.s3.l':'Шинэ орон сууцны үнэ (УБ)','mkt.s3.src':'Global Property Guide / ҮСХ · 2026.02',
-      'mkt.s4.l':'Орон сууцны үнийн индекс','mkt.s4.src':'ҮСХ · 2025.06',
-      'mkt.s5.l':'Түрээсийн өгөөж (нийт)','mkt.s5.src':'Global Property Guide · 2025 Q4',
-      'mkt.s6.l':'Гадаад жуулчид','mkt.s6.src':'ҮСХ / Montsame · 2025',
-      'mkt.foot':'Тоонууд эх сурвалжтай, тухайн үеийнх. Өгөөж нийт дүн; ам.доллар/төгрөгийн ханш огнооноос хамаарна; метро ба BRT төлөвлөгдсөн.',
 
-      'sec.numbers.eyebrow':'07 — ҮЗҮҮЛЭЛТ','sec.numbers.title':'Талбай, төлөвлөлт, санхүү — хүсэлтээр.','sec.numbers.intro':'Талбайн үзүүлэлт нийтэд ил. Санхүүгийн загвар — өртөг, орлого, өгөөж, төлбөрийн нөхцөл — шалгарсан хөрөнгө оруулагчдад танилцуулгаар.',
+      'sec.numbers.eyebrow':'06 — ҮЗҮҮЛЭЛТ','sec.numbers.title':'Талбай, төлөвлөлт, санхүү — хүсэлтээр.','sec.numbers.intro':'Талбайн үзүүлэлт нийтэд ил. Санхүүгийн загвар — өртөг, орлого, өгөөж, төлбөрийн нөхцөл — шалгарсан хөрөнгө оруулагчдад танилцуулгаар.',
       'num.public.title':'Нийтэд ил','num.gated.title':'Танилцуулгад','num.gfa':'Нийт талбай','num.saleable':'Ашигтай талбай','num.land':'Газар','num.floors':'Давхар','num.residences':'Орон сууц','num.parking':'Авто зогсоол','num.hotelarea':'Буудлын талбай','num.grade':'Бүсийн зэрэглэл','num.grade.v':'А зэрэглэл',
       'num.cost':'Бүтээн байгуулалтын өртөг','num.revenue':'Нэгжийн үнэ ба өгөөж','num.irr':'Орлогын загвар ба IRR','num.gated.note':'Шалгарсан хөрөнгө оруулагч, түншүүдтэй хуваалцана.','num.unlock':'Санхүүг нээх',
 
-      'sec.dev.eyebrow':'08 — ХӨГЖҮҮЛЭГЧ','sec.dev.title':'JTSG ХХК хэрэгжүүлж байна.','dev.legal':'ЖЭЙ ТИ ЭС Жи ХХК',
+      'sec.dev.eyebrow':'07 — ХӨГЖҮҮЛЭГЧ','sec.dev.title':'JTSG ХХК хэрэгжүүлж байна.','dev.legal':'ЖЭЙ ТИ ЭС Жи ХХК',
       'dev.body':'NOMT-ыг ЖЭЙ ТИ ЭС Жи ХХК хөгжүүлж байна. 3,175 м² талбай баталгаажсан, барилгын иж бүрэн зураг төсөл бэлэн (2026 оны 2 сар), барилга нь Улаанбаатарын уур амьсгалд тохирсон.',
       'trust.land':'Газар баталгаажсан · 3,175 m²','trust.set':'Зураг төсөл бэлэн · 2026.02','trust.seismic':'Газар хөдлөлт 8 балл · −36 °C','trust.grade':'А зэрэглэлийн байршил',
       'dev.spec.struct':'Цутгамал ТӨ хүрээ','dev.spec.facade':'Метал + шил фасад','dev.spec.fire':'Гал/бат бөх II зэрэг','dev.img.alt':'NOMT цогцолборын гадна төрх','dev.img.cap':'NOMT · Уран сайхны төсөөлөл',
 
-      'sec.partner.eyebrow':'09 — ХАМТРАЛ','partner.head':'Бүрэн танилцуулгыг аваарай.','partner.body':'Төлөвлөлтийн зураг, орлогын загвар, өртөг ба өгөөжийн тооцоо, нэгжийн үнэ, төлбөрийн нөхцөл — шалгарсан хөрөнгө оруулагч, түншүүдэд хүсэлтээр илгээнэ.',
+      'sec.partner.eyebrow':'08 — ХАМТРАЛ','partner.head':'Бүрэн танилцуулгыг аваарай.','partner.body':'Төлөвлөлтийн зураг, орлогын загвар, өртөг ба өгөөжийн тооцоо, нэгжийн үнэ, төлбөрийн нөхцөл — шалгарсан хөрөнгө оруулагч, түншүүдэд хүсэлтээр илгээнэ.',
       'form.step.label':'Алхам 1 / 2','form.step.label2':'Алхам 2 / 2','form.name':'Нэр','form.email':'И-мэйл','form.company':'Байгууллага','form.phone':'Утас','form.type':'Сонирхол',
       'form.type.opt1':'Худалдах орон сууц','form.type.opt2':'Үйлчилгээт орон сууц','form.type.opt3':'Зочид буудал / оффис','form.type.opt4':'Сан / хамтрагч / хувь хүн',
       'form.next':'Үргэлжлүүлэх','form.back':'Буцах','form.submit':'Танилцуулга авах','form.visit':'Газар дээр нь үзэх',
@@ -118,10 +110,10 @@
 
     zh:{
       'a11y.skip':'跳至内容','nav.cta':'获取资料',
-      'nav.location':'区位','nav.building':'建筑','nav.serviced':'服务式','nav.hotel':'酒店','nav.market':'市场','nav.contact':'联系',
+      'nav.location':'区位','nav.building':'建筑','nav.serviced':'服务式','nav.hotel':'酒店','nav.contact':'联系',
 
       'hero.eyebrow':'JTSG 有限责任公司项目 · 乌兰巴托市中心',
-      'hero.headline':'在乌兰巴托的心脏——全城都来此办公的地方。',
+      'hero.headline':'在乌兰巴托的心脏。',
       'hero.sub':'坐落于苏赫巴托尔区——首都的政府、使馆与大学核心——的15层综合体：待售公寓、服务式公寓、酒店、办公与商业，一个地址，六条收入来源。',
       'hero.cta1':'获取投资资料','hero.cta2':'查看区位','hero.badge':'艺术效果图','hero.img.alt':'NOMT大厦外观艺术效果图',
       'hero.stat1.v':'15','hero.stat1.l':'层 + B1','hero.stat2.v':'64','hero.stat2.l':'套住宅','hero.stat3.v':'6','hero.stat3.l':'收入来源','hero.stat4.l':'总建筑面积',
@@ -175,25 +167,17 @@
       'thesis.4.title':'清晰产权','thesis.4.body':'外国人可完全拥有公寓，取得与本地人相同的产权证；但不拥有土地——仅有使用权。（建议买方取得书面法律意见。）',
       'thesis.risk':'风险提示：蒙古的增长、货币与房地产需求高度依赖铜与煤——大宗商品或中国需求的下行是主要风险；图格里克兑美元长期持续贬值。',
 
-      'sec.market.eyebrow':'06 — 市场','sec.market.title':'处于结构性上行周期的首都。','sec.market.intro':'蒙古于2024年迈入中高收入国家，并在一个月内两次获评级上调。尽管在建量高企，乌兰巴托房价仍持续上涨——需求快于供给。',
-      'mkt.s1.l':'GDP实际增长','mkt.s1.src':'世界银行 · 2025',
-      'mkt.s2.l':'主权评级','mkt.s2.src':'穆迪 / 标普 · 2025.10',
-      'mkt.s3.l':'新房价格（乌兰巴托）','mkt.s3.src':'Global Property Guide / 统计局 · 2026.02',
-      'mkt.s4.l':'住房价格指数','mkt.s4.src':'统计局 · 2025.06',
-      'mkt.s5.l':'租金收益率（毛）','mkt.s5.src':'Global Property Guide · 2025 Q4',
-      'mkt.s6.l':'外国游客','mkt.s6.src':'统计局 / Montsame · 2025',
-      'mkt.foot':'数据均有来源、标注时点。收益为毛值；美元/图格里克汇率取决于换算日期；地铁与BRT为规划中。',
 
-      'sec.numbers.eyebrow':'07 — 指标','sec.numbers.title':'面积、平面与财务——按需提供。','sec.numbers.intro':'面积指标为公开信息。财务模型——成本、收入、收益率、付款条件——通过资料包向合格投资者提供。',
+      'sec.numbers.eyebrow':'06 — 指标','sec.numbers.title':'面积、平面与财务——按需提供。','sec.numbers.intro':'面积指标为公开信息。财务模型——成本、收入、收益率、付款条件——通过资料包向合格投资者提供。',
       'num.public.title':'公开信息','num.gated.title':'资料包内','num.gfa':'总建筑面积','num.saleable':'可用面积','num.land':'土地','num.floors':'楼层','num.residences':'住宅','num.parking':'停车位','num.hotelarea':'酒店面积','num.grade':'地段等级','num.grade.v':'A级',
       'num.cost':'开发成本','num.revenue':'单元价格与收益','num.irr':'收益模型与IRR','num.gated.note':'向合格投资者与合作伙伴提供。','num.unlock':'解锁财务',
 
-      'sec.dev.eyebrow':'08 — 开发商','sec.dev.title':'由JTSG有限责任公司开发建设。','dev.legal':'JTSG 有限责任公司',
+      'sec.dev.eyebrow':'07 — 开发商','sec.dev.title':'由JTSG有限责任公司开发建设。','dev.legal':'JTSG 有限责任公司',
       'dev.body':'NOMT由JTSG LLC开发。3,175平方米地块已落实，全套建筑设计已于2026年2月完成，并针对乌兰巴托气候设计。',
       'trust.land':'土地已落实 · 3,175 m²','trust.set':'设计完成 · 2026.02','trust.seismic':'抗震8度 · −36 °C','trust.grade':'A级地段',
       'dev.spec.struct':'现浇钢混框架','dev.spec.facade':'金属 + 玻璃幕墙','dev.spec.fire':'防火/耐久II级','dev.img.alt':'NOMT综合体外观','dev.img.cap':'NOMT · 艺术效果图',
 
-      'sec.partner.eyebrow':'09 — 合作','partner.head':'获取完整投资资料包。','partner.body':'平面图、收益模型、成本与回报预测、单元价格、付款条件——应合格投资者与合作伙伴的请求发送。',
+      'sec.partner.eyebrow':'08 — 合作','partner.head':'获取完整投资资料包。','partner.body':'平面图、收益模型、成本与回报预测、单元价格、付款条件——应合格投资者与合作伙伴的请求发送。',
       'form.step.label':'步骤 1 / 2','form.step.label2':'步骤 2 / 2','form.name':'姓名','form.email':'电子邮箱','form.company':'公司','form.phone':'电话','form.type':'意向',
       'form.type.opt1':'待售住宅','form.type.opt2':'服务式公寓','form.type.opt3':'酒店 / 办公','form.type.opt4':'基金 / 合作伙伴 / 个人',
       'form.next':'继续','form.back':'返回','form.submit':'获取资料','form.visit':'安排实地考察',
@@ -205,10 +189,10 @@
 
     en:{
       'a11y.skip':'Skip to content','nav.cta':'Request the pack',
-      'nav.location':'Location','nav.building':'Building','nav.serviced':'Serviced','nav.hotel':'Hotel','nav.market':'Market','nav.contact':'Contact',
+      'nav.location':'Location','nav.building':'Building','nav.serviced':'Serviced','nav.hotel':'Hotel','nav.contact':'Contact',
 
       'hero.eyebrow':'A JTSG LLC DEVELOPMENT · CENTRAL ULAANBAATAR',
-      'hero.headline':'In the heart of Ulaanbaatar, where the whole city already comes to work.',
+      'hero.headline':'In the heart of Ulaanbaatar.',
       'hero.sub':"A 15-floor mixed-use tower in Sükhbaatar district — the capital's government, embassy and university core — combining homes for sale, serviced living, a hotel, offices and retail in one address: six income streams.",
       'hero.cta1':'Request the investor pack','hero.cta2':'Explore the location','hero.badge':"Artist's impression",'hero.img.alt':"Artist's impression of the NOMT tower",
       'hero.stat1.v':'15','hero.stat1.l':'Floors + B1','hero.stat2.v':'64','hero.stat2.l':'Residences','hero.stat3.v':'6','hero.stat3.l':'Income streams','hero.stat4.l':'Total GFA',
@@ -262,25 +246,17 @@
       'thesis.4.title':'Clear ownership','thesis.4.body':'Foreigners can own apartment units outright, on the same certificate as locals; land is not owned — use rights only. (Buyers should obtain a written legal opinion.)',
       'thesis.risk':"Risk note: Mongolia's growth, currency and property demand are heavily tied to copper and coal — a commodity or China-demand downturn is the dominant risk, and the tugrik has depreciated steadily against the USD.",
 
-      'sec.market.eyebrow':'06 — MARKET','sec.market.title':'A capital in a structural upcycle.','sec.market.intro':'Mongolia crossed into upper-middle-income status in 2024 and earned two sovereign-rating upgrades in a single month. Yet — even with record construction — Ulaanbaatar prices keep rising, signalling demand that outpaces supply.',
-      'mkt.s1.l':'Real GDP growth','mkt.s1.src':'World Bank · 2025',
-      'mkt.s2.l':'Sovereign ratings','mkt.s2.src':'Moody’s / S&P · Oct 2025',
-      'mkt.s3.l':'New-build price (UB)','mkt.s3.src':'Global Property Guide / NSO · Feb 2026',
-      'mkt.s4.l':'Housing Price Index','mkt.s4.src':'NSO Mongolia · Jun 2025',
-      'mkt.s5.l':'Rental yield (gross)','mkt.s5.src':'Global Property Guide · Q4 2025',
-      'mkt.s6.l':'Foreign tourist arrivals','mkt.s6.src':'NSO / Montsame · 2025',
-      'mkt.foot':'Figures are sourced and dated. Yields are gross; USD/MNT depends on the conversion date; the Metro and BRT are planned.',
 
-      'sec.numbers.eyebrow':'07 — SPECIFICATIONS','sec.numbers.title':'Areas, plans and financials — on request.','sec.numbers.intro':'Area figures are public. The financial model — cost, revenue, yield and payment terms — is shared with qualified investors through the pack.',
+      'sec.numbers.eyebrow':'06 — SPECIFICATIONS','sec.numbers.title':'Areas, plans and financials — on request.','sec.numbers.intro':'Area figures are public. The financial model — cost, revenue, yield and payment terms — is shared with qualified investors through the pack.',
       'num.public.title':'Public','num.gated.title':'In the pack','num.gfa':'Total GFA','num.saleable':'Useful area','num.land':'Land','num.floors':'Floors','num.residences':'Residences','num.parking':'Parking spaces','num.hotelarea':'Hotel area','num.grade':'District grade','num.grade.v':'A-grade',
       'num.cost':'Development cost','num.revenue':'Unit pricing & yield','num.irr':'Income model & IRR','num.gated.note':'Shared with qualified investors and partners.','num.unlock':'Unlock the financials',
 
-      'sec.dev.eyebrow':'08 — DEVELOPER','sec.dev.title':'Built and delivered by JTSG LLC.','dev.legal':'JTSG LLC',
+      'sec.dev.eyebrow':'07 — DEVELOPER','sec.dev.title':'Built and delivered by JTSG LLC.','dev.legal':'JTSG LLC',
       'dev.body':'NOMT is developed by JTSG LLC. The 3,175 m² site is secured, the full architectural set is complete (February 2026), and the building is engineered for the Ulaanbaatar climate.',
       'trust.land':'Land secured · 3,175 m²','trust.set':'Architectural set complete · 2026.02','trust.seismic':'Seismic grade 8 · −36 °C','trust.grade':'A-grade location',
       'dev.spec.struct':'Cast RC frame','dev.spec.facade':'Metal + glass facade','dev.spec.fire':'Fire/durability grade II','dev.img.alt':'Exterior of the NOMT complex','dev.img.cap':"NOMT · Artist's impression",
 
-      'sec.partner.eyebrow':'09 — PARTNER','partner.head':'Get the full investor pack.','partner.body':'Floor plans, the income model, cost and return projections, unit pricing and payment terms — sent to qualified investors and partners on request.',
+      'sec.partner.eyebrow':'08 — PARTNER','partner.head':'Get the full investor pack.','partner.body':'Floor plans, the income model, cost and return projections, unit pricing and payment terms — sent to qualified investors and partners on request.',
       'form.step.label':'Step 1 / 2','form.step.label2':'Step 2 / 2','form.name':'Name','form.email':'Email','form.company':'Company','form.phone':'Phone','form.type':'Interest',
       'form.type.opt1':'For-sale residences','form.type.opt2':'Serviced apartments','form.type.opt3':'Hotel / office','form.type.opt4':'Fund / partner / individual',
       'form.next':'Continue','form.back':'Back','form.submit':'Get the pack','form.visit':'Arrange a site visit',
