@@ -333,7 +333,6 @@
     document.documentElement.classList.toggle('font-cjk', l==='zh');
     document.querySelectorAll('[data-lang]').forEach(function(b){ b.setAttribute('aria-pressed', String(b.getAttribute('data-lang')===l)); });
     try{ localStorage.setItem(STORE,l); }catch(e){}
-    try{ history.replaceState(null,'','/'+l); }catch(e){}
     renderPanel();
     renderLandmarks();
     setStepLabel();
