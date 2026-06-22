@@ -94,8 +94,8 @@
       'num.cost':'Бүтээн байгуулалтын өртөг','num.revenue':'Нэгжийн үнэ ба өгөөж','num.irr':'Орлогын загвар ба IRR','num.gated.note':'Шалгарсан хөрөнгө оруулагч, түншүүдтэй хуваалцана.','num.unlock':'Санхүүг нээх',
 
       'sec.dev.eyebrow':'05 — ХӨГЖҮҮЛЭГЧ','sec.dev.title':'JTSG ХХК хэрэгжүүлж байна.','dev.legal':'ЖЭЙ ТИ ЭС Жи ХХК',
-      'dev.body':'NOMT-ыг ЖЭЙ ТИ ЭС Жи ХХК хөгжүүлж байна. 3,175 м² талбай баталгаажсан, барилгын иж бүрэн зураг төсөл бэлэн (2026 оны 2 сар), барилга нь Улаанбаатарын уур амьсгалд тохирсон.',
-      'trust.land':'Газар баталгаажсан · 3,175 m²','trust.set':'Зураг төсөл бэлэн · 2026.02','trust.seismic':'Газар хөдлөлт 8 балл · −36 °C','trust.grade':'А зэрэглэлийн байршил',
+      'dev.body':'NOMT-ыг ЖЭЙ ТИ ЭС Жи ХХК хөгжүүлж байна. 3,175 м² талбай баталгаажсан, барилгын иж бүрэн зураг төсөл бэлэн (2026 оны 6 сар), барилга нь Улаанбаатарын уур амьсгалд тохирсон.',
+      'trust.land':'Газар · 3,175 m²','trust.set':'Зураг төсөл бэлэн · 2026.02','trust.seismic':'2027 оны 4-р улиралд ашиглалтад орно','trust.grade':'А зэрэглэлийн байршил',
       'dev.spec.struct':'Цутгамал ТӨ хүрээ','dev.spec.facade':'Метал + шил фасад','dev.spec.fire':'Гал/бат бөх II зэрэг','dev.img.alt':'NOMT цогцолборын гадна төрх','dev.img.cap':'NOMT · Уран сайхны төсөөлөл',
 
       'sec.partner.eyebrow':'08 — ХАМТРАЛ','partner.head':'Бүрэн танилцуулгыг аваарай.','partner.body':'Төлөвлөлтийн зураг, орлогын загвар, өртөг ба өгөөжийн тооцоо, нэгжийн үнэ, төлбөрийн нөхцөл — шалгарсан хөрөнгө оруулагч, түншүүдэд хүсэлтээр илгээнэ.',
@@ -173,8 +173,8 @@
       'num.cost':'开发成本','num.revenue':'单元价格与收益','num.irr':'收益模型与IRR','num.gated.note':'向合格投资者与合作伙伴提供。','num.unlock':'解锁财务',
 
       'sec.dev.eyebrow':'05 — 开发商','sec.dev.title':'由JTSG有限责任公司开发建设。','dev.legal':'JTSG 有限责任公司',
-      'dev.body':'NOMT由JTSG LLC开发。3,175平方米地块已落实，全套建筑设计已于2026年2月完成，并针对乌兰巴托气候设计。',
-      'trust.land':'土地已落实 · 3,175 m²','trust.set':'设计完成 · 2026.02','trust.seismic':'抗震8度 · −36 °C','trust.grade':'A级地段',
+      'dev.body':'NOMT由JTSG LLC开发。3,175平方米地块已落实，全套建筑设计已于2026年6月完成，并针对乌兰巴托气候设计。',
+      'trust.land':'土地 · 3,175 m²','trust.set':'设计完成 · 2026.02','trust.seismic':'2027年第四季度交付使用','trust.grade':'A级地段',
       'dev.spec.struct':'现浇钢混框架','dev.spec.facade':'金属 + 玻璃幕墙','dev.spec.fire':'防火/耐久II级','dev.img.alt':'NOMT综合体外观','dev.img.cap':'NOMT · 艺术效果图',
 
       'sec.partner.eyebrow':'08 — 合作','partner.head':'获取完整投资资料包。','partner.body':'平面图、收益模型、成本与回报预测、单元价格、付款条件——应合格投资者与合作伙伴的请求发送。',
@@ -252,8 +252,8 @@
       'num.cost':'Development cost','num.revenue':'Unit pricing & yield','num.irr':'Income model & IRR','num.gated.note':'Shared with qualified investors and partners.','num.unlock':'Unlock the financials',
 
       'sec.dev.eyebrow':'05 — DEVELOPER','sec.dev.title':'Built and delivered by JTSG LLC.','dev.legal':'JTSG LLC',
-      'dev.body':'NOMT is developed by JTSG LLC. The 3,175 m² site is secured, the full architectural set is complete (February 2026), and the building is engineered for the Ulaanbaatar climate.',
-      'trust.land':'Land secured · 3,175 m²','trust.set':'Architectural set complete · 2026.02','trust.seismic':'Seismic grade 8 · −36 °C','trust.grade':'A-grade location',
+      'dev.body':'NOMT is developed by JTSG LLC. The 3,175 m² site is secured, the full architectural set is complete (June 2026), and the building is engineered for the Ulaanbaatar climate.',
+      'trust.land':'Land · 3,175 m²','trust.set':'Architectural set complete · 2026.02','trust.seismic':'Operational Q4 2027','trust.grade':'A-grade location',
       'dev.spec.struct':'Cast RC frame','dev.spec.facade':'Metal + glass facade','dev.spec.fire':'Fire/durability grade II','dev.img.alt':'Exterior of the NOMT complex','dev.img.cap':"NOMT · Artist's impression",
 
       'sec.partner.eyebrow':'08 — PARTNER','partner.head':'Get the full investor pack.','partner.body':'Floor plans, the income model, cost and return projections, unit pricing and payment terms — sent to qualified investors and partners on request.',
