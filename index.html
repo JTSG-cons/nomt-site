@@ -59,9 +59,8 @@
 <nav aria-label="Section index" class="hidden xl:flex flex-col gap-4 fixed right-7 top-1/2 -translate-y-1/2 z-40">
   <a href="#location" data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">01</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
   <a href="#building" data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">02</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
-  <a href="#serviced" data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">03</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
-  <a href="#thesis"   data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">04</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
-  <a href="#dev"      data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">05</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#thesis"   data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">03</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
+  <a href="#dev"      data-idx class="idx-link group flex items-center gap-3 justify-end" aria-current="false"><span class="idx-num font-mono text-[10px] text-mist-dim">04</span><span class="idx-bar inline-block h-px w-3 bg-mist-dim/50"></span></a>
 </nav>
 
 <!-- NAV -->
@@ -75,7 +74,6 @@
     <div class="hidden lg:flex items-center gap-6 font-mono text-[11px] tracking-[0.14em] uppercase text-mist">
       <a href="#location" data-i18n="nav.location" class="hover:text-paper">Байршил</a>
       <a href="#building" data-i18n="nav.building" class="hover:text-paper">Барилга</a>
-      <a href="#serviced" data-i18n="nav.serviced" class="hover:text-paper">Үйлчилгээт</a>
     </div>
     <div class="flex items-center gap-3 sm:gap-5 shrink-0">
       <div role="group" aria-label="Language" class="flex items-center font-mono text-[11px] tracking-[0.12em]">
@@ -276,37 +274,11 @@
   </div>
 </section>
 
-<!-- 03 · SERVICED APARTMENTS -->
-<section id="serviced" class="py-24 md:py-32 scroll-mt-16">
-  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-    <figure data-reveal class="img-cine relative ring-1 ring-hair">
-      <span class="absolute z-10 left-4 top-4 w-2.5 h-2.5" style="background:#2E7E6E"></span>
-      <picture>
-        <source type="image/webp" srcset="assets/floor-serv-800.webp 800w, assets/floor-serv-1600.webp 1600w" sizes="(min-width:1024px) 46vw, 100vw" />
-        <img src="assets/floor-serv-1600.jpg" srcset="assets/floor-serv-800.jpg 800w, assets/floor-serv-1600.jpg 1600w" sizes="(min-width:1024px) 46vw, 100vw"
-             width="1600" height="893" loading="lazy" decoding="async" data-i18n-attr="alt" data-i18n="stream.serviced" alt="Үйлчилгээт орон сууц" class="w-full h-full object-cover" />
-      </picture>
-    </figure>
-    <div data-reveal style="--i:1">
-      <p data-i18n="sec.serv.eyebrow" class="eyebrow mb-5">03 — ҮЙЛЧИЛГЭЭТ ОРОН СУУЦ</p>
-      <h2 data-i18n="sec.serv.title" class="font-display font-normal text-display-lg mb-5">Эдийн засгийг хөтөлдөг хүмүүст зориулсан үйлчилгээтэй амьдрал.</h2>
-      <p data-i18n="serv.body" class="text-mist mb-8 max-w-xl">A–H нэгжийг удирдлагатай түрээсийн санд оруулна.</p>
-      <dl class="grid sm:grid-cols-2 gap-px bg-hair/60 ring-1 ring-hair">
-        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b1.l" class="eyebrow text-mist-dim mb-2">Зорилтот түрээслэгч</dt><dd data-i18n="serv.b1.v" class="text-paper text-sm">Уул уурхай, дипломат, бизнес зочид</dd></div>
-        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b2.l" class="eyebrow text-mist-dim mb-2">Бүтцийн эрэлт</dt><dd data-i18n="serv.b2.v" class="text-paper text-sm">Оюу Толгой ~20,000 ажилтан</dd></div>
-        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b3.l" class="eyebrow text-mist-dim mb-2">Түрээсийн өгөөж</dt><dd data-i18n="serv.b3.v" class="text-paper text-sm">~10.75% (нийт, 2025 Q4)</dd></div>
-        <div class="bg-ink px-5 py-5"><dt data-i18n="serv.b4.l" class="eyebrow text-mist-dim mb-2">Загвар</dt><dd data-i18n="serv.b4.v" class="text-paper text-sm">Худалдаж ав → түрээсийн сан</dd></div>
-      </dl>
-      <p data-i18n="serv.note" class="text-mist-dim text-xs mt-4">Өгөөжийн тоо нийт дүн.</p>
-    </div>
-  </div>
-</section>
-
-<!-- 04 · THESIS -->
+<!-- 03 · THESIS -->
 <section id="thesis" class="py-24 md:py-32 scroll-mt-16">
   <div class="max-w-7xl mx-auto px-5 sm:px-8">
     <div data-reveal class="mb-12 md:mb-16 max-w-3xl">
-      <p data-i18n="sec.thesis.eyebrow" class="eyebrow mb-5">04 — ТЕЗИС</p>
+      <p data-i18n="sec.thesis.eyebrow" class="eyebrow mb-5">03 — ТЕЗИС</p>
       <h2 data-i18n="sec.thesis.title" class="font-display font-normal text-display-lg">Зургаан орлогын урсгал.</h2>
     </div>
     <div class="border-t border-hair">
@@ -343,14 +315,14 @@
       <figcaption data-i18n="dev.img.cap" class="absolute z-10 left-4 bottom-4 font-mono text-[10px] uppercase tracking-[0.16em] text-paper/80 bg-ink/50 backdrop-blur px-2.5 py-1">NOMT · Уран сайхны төсөөлөл</figcaption>
     </figure>
     <div data-reveal style="--i:1">
-      <p data-i18n="sec.dev.eyebrow" class="eyebrow mb-5">05 — ХӨГЖҮҮЛЭГЧ</p>
+      <p data-i18n="sec.dev.eyebrow" class="eyebrow mb-5">04 — ХӨГЖҮҮЛЭГЧ</p>
       <h2 data-i18n="sec.dev.title" class="font-display font-normal text-display-lg mb-3">JTSG ХХК хэрэгжүүлж байна.</h2>
       <p class="font-display text-xl text-brass-300 mb-1">JTSG LLC</p>
       <p data-i18n="dev.legal" class="font-mono text-[11px] tracking-[0.1em] text-mist-dim mb-6">ЖЭЙ ТИ ЭС Жи ХХК</p>
       <p data-i18n="dev.body" class="text-mist mb-8 max-w-xl">НОМТ-ыг ЖЭЙ ТИ ЭС Жи ХХК хөгжүүлж байна.</p>
       <ul class="grid sm:grid-cols-2 gap-px bg-hair/60 ring-1 ring-hair">
         <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.land" class="block text-paper text-sm">Газар · 3,175 m²</span></li>
-        <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.set" class="block text-paper text-sm">Зураг төсөл бэлэн </span></li>
+        <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.set" class="block text-paper text-sm">Зураг төсөл бэлэн · 2026.06</span></li>
         <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.seismic" class="block text-paper text-sm">2027 оны 4-р улиралд ашиглалтад орно</span></li>
         <li class="bg-ink px-4 py-3.5"><span data-i18n="trust.grade" class="block text-paper text-sm">А зэрэглэлийн байршил</span></li>
       </ul>

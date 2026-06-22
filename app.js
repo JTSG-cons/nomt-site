@@ -31,7 +31,7 @@
   var I18N={
     mn:{
       'a11y.skip':'Агуулга руу шилжих','nav.cta':'Танилцуулга авах',
-      'nav.location':'Байршил','nav.building':'Барилга','nav.serviced':'Үйлчилгээт','nav.contact':'Холбоо барих',
+      'nav.location':'Байршил','nav.building':'Барилга','nav.contact':'Холбоо барих',
 
       'hero.eyebrow':'JTSG ХХК-ИЙН ТӨСӨЛ · ТӨВ УЛААНБААТАР',
       'hero.headline':'Улаанбаатарын зүрхэнд.',
@@ -80,7 +80,7 @@
       'hotel.b4.l':'Брэндийн орц','hotel.b4.v':'Marriott (AC, ~2027), Hilton Conrad (~2028–29) Улаанбаатарт ороход бэлэн',
       'hotel.note':'Зочид буудал нь хамгийн улирлын чанартай урсгал — улирлын хэлбэлзлийг яг олон зориулалтат бүтэц зөөлрүүлдэг.',
 
-      'sec.thesis.eyebrow':'04 — ТЕЗИС','sec.thesis.title':'Зургаан орлогын урсгал. Нэг хаяг. Азийн хамгийн хурдан өсөж буй нийслэлүүдийн нэг.',
+      'sec.thesis.eyebrow':'03 — ТЕЗИС','sec.thesis.title':'Зургаан орлогын урсгал. Нэг хаяг. Азийн хамгийн хурдан өсөж буй нийслэлүүдийн нэг.',
       'thesis.1.title':'Олон талт мөнгөн урсгал','thesis.1.body':'Орон сууцны борлуулалт + үйлчилгээт түрээс + буудлын өрөө + оффисын түрээс + худалдаа + зогсоол — хоорондоо хамааралгүй хөдөлдөг, тэнцвэртэй багц шиг.',
       'thesis.2.title':'Өндөр орлого ба өсөлт','thesis.2.body':'Улаанбаатарын орон сууцны нийт түрээсийн өгөөж ~10.75% (2025 Q4); орон сууцны үнэ 2023–2025 онд тасралтгүй хоёр оронтой хувиар өссөн.',
       'thesis.3.title':'Макро түшиц','thesis.3.body':'ДНБ 2025 онд +6.9%; 2025 оны 10 сард Moody’s B1, S&P BB- болж зэрэглэл дээшилсэн — Монголын анхны “BB” зэрэглэл.',
@@ -92,9 +92,9 @@
       'num.public.title':'Нийтэд ил','num.gated.title':'Танилцуулгад','num.gfa':'Нийт талбай','num.saleable':'Ашигтай талбай','num.land':'Газар','num.floors':'Давхар','num.residences':'Орон сууц','num.parking':'Авто зогсоол','num.hotelarea':'Буудлын талбай','num.grade':'Бүсийн зэрэглэл','num.grade.v':'А зэрэглэл',
       'num.cost':'Бүтээн байгуулалтын өртөг','num.revenue':'Нэгжийн үнэ ба өгөөж','num.irr':'Орлогын загвар ба IRR','num.gated.note':'Шалгарсан хөрөнгө оруулагч, түншүүдтэй хуваалцана.','num.unlock':'Санхүүг нээх',
 
-      'sec.dev.eyebrow':'05 — ХӨГЖҮҮЛЭГЧ','sec.dev.title':'JTSG ХХК хэрэгжүүлж байна.','dev.legal':'ЖЭЙ ТИ ЭС Жи ХХК',
+      'sec.dev.eyebrow':'04 — ХӨГЖҮҮЛЭГЧ','sec.dev.title':'JTSG ХХК хэрэгжүүлж байна.','dev.legal':'ЖЭЙ ТИ ЭС Жи ХХК',
       'dev.body':'NOMT-ыг ЖЭЙ ТИ ЭС Жи ХХК хөгжүүлж байна. 3,175 м² талбай баталгаажсан, барилгын иж бүрэн зураг төсөл бэлэн (2026 оны 6 сар), барилга нь Улаанбаатарын уур амьсгалд тохирсон.',
-      'trust.land':'Газар · 3,175 m²','trust.set':'Зураг төсөл бэлэн · 2026.02','trust.seismic':'2027 оны 4-р улиралд ашиглалтад орно','trust.grade':'А зэрэглэлийн байршил',
+      'trust.land':'Газар · 3,175 m²','trust.set':'Зураг төсөл бэлэн · 2026.06','trust.seismic':'2027 оны 4-р улиралд ашиглалтад орно','trust.grade':'А зэрэглэлийн байршил',
       'dev.spec.struct':'Цутгамал ТӨ хүрээ','dev.spec.facade':'Метал + шил фасад','dev.spec.fire':'Гал/бат бөх II зэрэг','dev.img.alt':'NOMT цогцолборын гадна төрх','dev.img.cap':'NOMT · Уран сайхны төсөөлөл',
 
       'sec.partner.eyebrow':'08 — ХАМТРАЛ','partner.head':'Бүрэн танилцуулгыг аваарай.','partner.body':'Төлөвлөлтийн зураг, орлогын загвар, өртөг ба өгөөжийн тооцоо, нэгжийн үнэ, төлбөрийн нөхцөл — шалгарсан хөрөнгө оруулагч, түншүүдэд хүсэлтээр илгээнэ.',
@@ -109,7 +109,7 @@
 
     zh:{
       'a11y.skip':'跳至内容','nav.cta':'获取资料',
-      'nav.location':'区位','nav.building':'建筑','nav.serviced':'服务式','nav.contact':'联系',
+      'nav.location':'区位','nav.building':'建筑','nav.contact':'联系',
 
       'hero.eyebrow':'JTSG 有限责任公司项目 · 乌兰巴托市中心',
       'hero.headline':'在乌兰巴托的心脏。',
@@ -158,7 +158,7 @@
       'hotel.b4.l':'品牌进入','hotel.b4.v':'万豪（AC，约2027）、希尔顿康莱德（约2028–29）将进入乌兰巴托',
       'hotel.note':'酒店是最具季节性的收入来源——而多元用途结构正是用来对冲这种季节波动。',
 
-      'sec.thesis.eyebrow':'04 — 论点','sec.thesis.title':'六条收入来源。一个地址。亚洲增长最快的首都之一。',
+      'sec.thesis.eyebrow':'03 — 论点','sec.thesis.title':'六条收入来源。一个地址。亚洲增长最快的首都之一。',
       'thesis.1.title':'多元现金流','thesis.1.body':'住宅销售 + 服务式租金 + 酒店客房 + 办公租金 + 商业 + 停车——彼此不同步波动，如同一个均衡的投资组合。',
       'thesis.2.title':'高收益与增值','thesis.2.body':'乌兰巴托住宅毛租金收益率约10.75%（2025年Q4）；房价在2023–2025年连续三年双位数上涨。',
       'thesis.3.title':'宏观顺风','thesis.3.body':'2025年GDP +6.9%；2025年10月获穆迪B1、标普BB-上调——蒙古首个“BB”级。',
@@ -170,9 +170,9 @@
       'num.public.title':'公开信息','num.gated.title':'资料包内','num.gfa':'总建筑面积','num.saleable':'可用面积','num.land':'土地','num.floors':'楼层','num.residences':'住宅','num.parking':'停车位','num.hotelarea':'酒店面积','num.grade':'地段等级','num.grade.v':'A级',
       'num.cost':'开发成本','num.revenue':'单元价格与收益','num.irr':'收益模型与IRR','num.gated.note':'向合格投资者与合作伙伴提供。','num.unlock':'解锁财务',
 
-      'sec.dev.eyebrow':'05 — 开发商','sec.dev.title':'由JTSG有限责任公司开发建设。','dev.legal':'JTSG 有限责任公司',
+      'sec.dev.eyebrow':'04 — 开发商','sec.dev.title':'由JTSG有限责任公司开发建设。','dev.legal':'JTSG 有限责任公司',
       'dev.body':'NOMT由JTSG LLC开发。3,175平方米地块已落实，全套建筑设计已于2026年6月完成，并针对乌兰巴托气候设计。',
-      'trust.land':'土地 · 3,175 m²','trust.set':'设计完成 · 2026.02','trust.seismic':'2027年第四季度交付使用','trust.grade':'A级地段',
+      'trust.land':'土地 · 3,175 m²','trust.set':'设计完成 · 2026.06','trust.seismic':'2027年第四季度交付使用','trust.grade':'A级地段',
       'dev.spec.struct':'现浇钢混框架','dev.spec.facade':'金属 + 玻璃幕墙','dev.spec.fire':'防火/耐久II级','dev.img.alt':'NOMT综合体外观','dev.img.cap':'NOMT · 艺术效果图',
 
       'sec.partner.eyebrow':'08 — 合作','partner.head':'获取完整投资资料包。','partner.body':'平面图、收益模型、成本与回报预测、单元价格、付款条件——应合格投资者与合作伙伴的请求发送。',
@@ -187,7 +187,7 @@
 
     en:{
       'a11y.skip':'Skip to content','nav.cta':'Request the pack',
-      'nav.location':'Location','nav.building':'Building','nav.serviced':'Serviced','nav.contact':'Contact',
+      'nav.location':'Location','nav.building':'Building','nav.contact':'Contact',
 
       'hero.eyebrow':'A JTSG LLC DEVELOPMENT · CENTRAL ULAANBAATAR',
       'hero.headline':'In the heart of Ulaanbaatar.',
@@ -236,7 +236,7 @@
       'hotel.b4.l':'Brands entering','hotel.b4.v':'Marriott (AC, ~2027) and Hilton’s Conrad (~2028–29) are entering UB',
       'hotel.note':'The hotel is the most seasonal stream — which is precisely what a diversified building is built to offset.',
 
-      'sec.thesis.eyebrow':'04 — THESIS','sec.thesis.title':"Six income streams. One address. One of Asia's fastest-growing capitals.",
+      'sec.thesis.eyebrow':'03 — THESIS','sec.thesis.title':"Six income streams. One address. One of Asia's fastest-growing capitals.",
       'thesis.1.title':'Diversified cash flow','thesis.1.body':"Home sales + serviced rents + hotel keys + office leases + retail + parking don't move together — the property equivalent of a balanced portfolio.",
       'thesis.2.title':'High income & appreciation','thesis.2.body':'UB gross residential yields ~10.75% (Q4 2025); apartment values have risen double-digits three years running (2023–2025).',
       'thesis.3.title':'Macro tailwind','thesis.3.body':"GDP +6.9% in 2025; sovereign upgrades to Moody's B1 and S&P BB- in October 2025 — Mongolia's first-ever 'BB'.",
@@ -248,9 +248,9 @@
       'num.public.title':'Public','num.gated.title':'In the pack','num.gfa':'Total GFA','num.saleable':'Useful area','num.land':'Land','num.floors':'Floors','num.residences':'Residences','num.parking':'Parking spaces','num.hotelarea':'Hotel area','num.grade':'District grade','num.grade.v':'A-grade',
       'num.cost':'Development cost','num.revenue':'Unit pricing & yield','num.irr':'Income model & IRR','num.gated.note':'Shared with qualified investors and partners.','num.unlock':'Unlock the financials',
 
-      'sec.dev.eyebrow':'05 — DEVELOPER','sec.dev.title':'Built and delivered by JTSG LLC.','dev.legal':'JTSG LLC',
+      'sec.dev.eyebrow':'04 — DEVELOPER','sec.dev.title':'Built and delivered by JTSG LLC.','dev.legal':'JTSG LLC',
       'dev.body':'NOMT is developed by JTSG LLC. The 3,175 m² site is secured, the full architectural set is complete (June 2026), and the building is engineered for the Ulaanbaatar climate.',
-      'trust.land':'Land · 3,175 m²','trust.set':'Architectural set complete · 2026.02','trust.seismic':'Operational Q4 2027','trust.grade':'A-grade location',
+      'trust.land':'Land · 3,175 m²','trust.set':'Architectural set complete · 2026.06','trust.seismic':'Operational Q4 2027','trust.grade':'A-grade location',
       'dev.spec.struct':'Cast RC frame','dev.spec.facade':'Metal + glass facade','dev.spec.fire':'Fire/durability grade II','dev.img.alt':'Exterior of the NOMT complex','dev.img.cap':"NOMT · Artist's impression",
 
       'sec.partner.eyebrow':'08 — PARTNER','partner.head':'Get the full investor pack.','partner.body':'Floor plans, the income model, cost and return projections, unit pricing and payment terms — sent to qualified investors and partners on request.',
